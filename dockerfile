@@ -9,4 +9,4 @@ RUN apk add python3
 RUN pip3 install --upgrade pip
 RUN pip3 install requests
 RUN pip3 install bypy
-ENTRYPOINT ["bypy","info"]
+CMD ["bypy","info"]
